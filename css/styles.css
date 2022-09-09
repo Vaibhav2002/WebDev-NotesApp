@@ -48,15 +48,18 @@ p {
     border-radius: 50%;
     border: 0 solid;
     font-size: 2em;
-    background-color: aqua;
-    box-shadow: 0px 5px 20px rgba(0, 255, 255, 0.445);
+    z-index: 1;
+    transition: all 0.7s ease;
+    background: #126ee2;
+    box-shadow: 0px 5px 20px #81a4f1;
     cursor: pointer;
+    color: white;
 }
 
-.btn__fab:hover{
-    background-color: rgba(0, 255, 255, 0.514);
-    box-shadow: 0px 10px 30px rgba(0, 255, 255, 0.288);
-}
+.btn__fab:hover {
+    background: #2c87e8;
+    box-shadow: 0px 5px 20px 5px #81a4f1;
+  }
 
 
 @media only screen and (min-width: 640px) {
